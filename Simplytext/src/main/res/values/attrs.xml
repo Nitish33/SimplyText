@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SimplyText">
+
+        <attr name="bgStart" format="integer"/>
+        <attr name="bgEnd" format="integer"/>
+        <attr name="bgColor" format="color"/>
+
+        <attr name="fgStart" format="integer"/>
+        <attr name="fgEnd" format="integer"/>
+        <attr name="fgColor" format="color"/>
+
+        <attr name="strikeStart" format="integer"/>
+        <attr name="strikeEnd" format="integer"/>
+
+        <attr name="underLineStart" format="integer"/>
+        <attr name="underLineEnd" format="integer"/>
+
+        <attr name="styleStart" format="integer"/>
+        <attr name="styleEnd" format="integer"/>
+        <attr name="style" format="enum">
+            <enum name="NONE" value="0"/>
+            <enum name="BOLD" value="1"/>
+            <enum name="ITALIC" value="2"/>
+        </attr>
+
+        <attr name="subScriptStart" format="integer"/>
+        <attr name="subScriptEnd" format="integer"/>
+
+        <attr name="superScriptStart" format="integer"/>
+        <attr name="superScriptEnd" format="integer"/>
+
+        <attr name="absSizeStart" format="integer"/>
+        <attr name="absSizeEnd" format="integer"/>
+        <attr name="absSize" format="integer"/>
+
+        <attr name="relSizeStart" format="integer"/>
+        <attr name="relSizeEnd" format="integer"/>
+        <attr name="relSize" format="integer"/>
+
+    </declare-styleable>
+
+</resources>
